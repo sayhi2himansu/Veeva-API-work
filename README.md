@@ -6,9 +6,9 @@ In veeva vault Renditions refer to the pdf version of the uploaded file but it d
 
 ### General tips for this script before execution
 1. Pyhton scripting has been executed on the Jupiter notebook. One can get help of this script and use it in other coding tools as well.
-2. Script  also generate the log file to identify if for amy doc ids - Code failed to download the viewable rendition.
+2. Script  also generate the log file to identify if for any doc ids - Code failed to download the viewable rendition.
 3. "Credentials.txt" file contains the Vault environment URL and the veeva API version. One can use the latest version of API by editing the "credentials.txt" file.
-4. Script contains your session IDs for vault authentication(Basis Security policy). USE your test environment before the PROD executions.
+4. Script contains your session IDs for vault authentication(Basic Security policy). USE your test environment before the PROD executions.
 5. For bulk downloading the Viewable Renditions - One will have the CSV file with DOC IDs. Script will read the ID from this CSV and using API GET method download the content.
 
    
